@@ -22,7 +22,7 @@ En el mismo momento en que se da de alta el curso se debe agregar un registro en
 
 **Logs**
 - Data (objeto curso en formato JSON)
-- Id (Id curso)
+- DataId (Id curso)
 - Date
 - User (legajo en formato string)
 
