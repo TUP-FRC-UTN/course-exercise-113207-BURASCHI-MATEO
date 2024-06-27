@@ -18,6 +18,13 @@ Dicha pagina debe verificar en base a una configuración si está habilitado par
 - Enabled
  
 Una vez cargados y enviados los datos en caso de tener permisos se debe mostrar un mensaje de confirmación en otra pantalla con los datos interesados. Si el usuario acepta se envía a la API y en caso contrario se vuelve a la página anterior con los datos cargados. 
+En el mismo momento en que se da de alta el curso se debe agregar un registro en la tabla Logs con la siguiente informacion:
+
+**Logs**
+- Data (objeto curso en formato JSON)
+- Id (Id curso)
+- Date
+- User (legajo en formato string)
 
 En caso de guardarse exitosamente se le debe mostrar un mensaje al usuario con el ID del registro generado.
 
